@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="pageStyles.css" rel="stylesheet">
+        <title>basic info page</title>
+    </head>
+
+    <body>
+        <!--header section-->
+        <div class="header">
+            <h1><a href="index.html">AIDAN LIANG</h1>
+            <form>
+                <a class='headerlinks' href="basic_info.html">basic info</a>
+                <a class='headerlinks' href="hobbies.html">hobbies</a>
+                <a class='headerlinks' href="food.html">food</a>
+                <a class='headerlinks' href="education.html">education</a>
+            </form>
+        </div>
+
+        <!--authentication section-->
+        <div id="authentication" class="section">
+            <button style="background-color: #e67e22; color:white;" id="orange">ORANGE</button>
+            <button style="background-color: #27ae60; color:white;" id="green">GREEN</button>
+            <button style="background-color: #5f9fca; color:white;" id="blue">BLUE</button>
+            <h1>What is your name?</h1>
+            <input id="enterAuthentication" type="text" autofocus autocomplete="off" placeholder="name">
+            <button id="submitAuthentication" type="button">authenticate</button>
+        </div>
+
+        <!--main content section-->
+        <main id="hiddenSection" class="hidden">
+            <div>
+                <h1>My name is Aidan!</h1>
+            </div>
+            <hr>
+            
+            <div>
+                <h2><div>Here is five facts about me:</div></h2>
+                <ol>
+                    <li>I'm 174cm</li>
+                    <li>I am Chinese</li>
+                    <li>I go to SHSB</li>
+                    <li>I like playing badminton</li>
+                    <li>I got all 9s in GCSEs</li>
+                </ol>
+            </div>
+            <hr>
+
+            </div>
+                <h2>Here is a picture of me!</h2>
+                <img src="myself.jpg">
+            </div>
+            <hr>
+        </main>
+        <script src="basic_info.js"></script>
+        <script src="colors.js"></script>
+    </body>
+</html>
